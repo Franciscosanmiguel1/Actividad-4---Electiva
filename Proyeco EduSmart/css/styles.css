@@ -1,0 +1,98 @@
+/* ==========================
+   Estilos generales
+========================== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================
+   Navbar
+========================== */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 600;
+}
+
+/* ==========================
+   Secciones
+========================== */
+section {
+    padding: 60px 0;
+}
+
+section.bg-light {
+    background-color: #f8f9fa;
+}
+
+section.bg-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* ==========================
+   Titulos y textos
+========================== */
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* ==========================
+   Botones
+========================== */
+.btn-primary {
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* ==========================
+   Tarjetas
+========================== */
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+/* ==========================
+   Formularios
+========================== */
+form .form-control {
+    border-radius: 8px;
+}
+
+form .btn {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* ==========================
+   Footer
+========================== */
+footer {
+    font-size: 0.9rem;
+    padding: 20px 0;
+    text-align: center;
+}
